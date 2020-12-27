@@ -69,6 +69,94 @@
 }
 
 /*COLORS*/
+.Main {
+  width: 80%;
+  margin: auto;
+  background: silver;
+}
+
+.Main .title {
+  padding: 3em;
+}
+
+.Main .img img {
+  padding: 2em;
+  width: 100%;
+}
+
+.Main button {
+  width: 100%;
+}
+
+/*COLORS*/
+.Cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+.card {
+  width: 600px;
+  padding: 2em;
+}
+
+/*COLORS*/
+.About {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #333;
+  color: #ccc;
+}
+
+.About .txt-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3em;
+}
+
+.About .txt-box h3 {
+  font-size: 3em;
+  color: rgba(248, 214, 23, 0.973);
+}
+
+.About .txt-box button {
+  background-color: rgba(248, 214, 23, 0.973);
+  margin: 1em;
+}
+
+/*COLORS*/
+.Footer {
+  background: rgba(248, 214, 23, 0.973);
+  color: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/*COLORS*/
 * {
   padding: 0;
   margin: 0;
